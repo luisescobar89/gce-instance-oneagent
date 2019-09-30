@@ -31,7 +31,7 @@ hostname          = "[HOSTNAME]"
 ssh_priv_key       = "[PRIVATE_KEY_FULL_PATH]"
 ```
 
-On the Dynatrace tenant, under manage, go to Deploy Dynatrace, Start Installation, Linux and after confirming all the settings, copy and paste all 3 commands on the [install-oneagent.sh] script. For space saving purposes, the download directory can be set to /tmp/.
+On the Dynatrace tenant, under manage, go to Deploy Dynatrace, Start Installation, Linux and after confirming all the settings, copy and paste all 3 commands on the [install-oneagent.sh](install-oneagent.sh) script. For space saving purposes, the download directory can be set to /tmp/.
 
 The file should look similar to this:
 
@@ -55,5 +55,3 @@ To clean up and destroy all resources created, run the following command:
 ```
 terraform destroy -var-file=./provision_ubuntu-vm.tfvars
 ```
-
-[install-oneagent.sh]:[install-oneagent.sh]
