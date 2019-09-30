@@ -56,4 +56,4 @@ To clean up and destroy all resources created, run the following command:
 terraform destroy -var-file=./provision_ubuntu-vm.tfvars
 ```
 
-[install-oneagent.sh]:[./install-oneagent.sh]
+[install-oneagent.sh]:[install-oneagent.sh]

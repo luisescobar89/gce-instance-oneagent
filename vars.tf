@@ -1,6 +1,6 @@
 variable "gcloud_project" {
   description = "Name of GCloud project to spin up the bastion host"
-  default     = "detroit-acl-v2"
+  default     = "project-1"
 }
 
 variable "gcloud_zone" {
